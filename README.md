@@ -1,3 +1,5 @@
+[简体中文](README-zh_CN.md)
+
 ## About
 
 This repo contains WPS Office missing fonts, which are used to solve the problem due to the fonts missing.
