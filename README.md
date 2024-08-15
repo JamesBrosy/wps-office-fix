@@ -2,11 +2,15 @@
 
 This repo contains WPS Office missing fonts, which are used to solve the problem due to the fonts missing.
 
+## STATUS
+
+Copr build: [![Copr build status](https://copr.fedorainfracloud.org/coprs/clarlok/wps-office-fonts-extra/package/wps-office-fonts-extra/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/clarlok/wps-office-fonts-extra/package/wps-office-fonts-extra/)
+
 ## Installation
 
 ### Manual Installation
 
-Download [latest release](https://github.com/JamesBrosy/wps-office-fonts-extra/archive/refs/tags/1.0.1.tar.gz), and extract to `~/.local/share/fonts`.
+Download [latest release](https://github.com/JamesBrosy/wps-office-fonts-extra/releases/latest), and extract to `~/.local/share/fonts`.
 
 ### Fedora Installation
 
