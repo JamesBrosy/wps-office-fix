@@ -2,7 +2,10 @@
 
 ## About
 
-This repo contains WPS Office missing fonts, which are used to solve the problem due to the fonts missing.
+This repo is aimed fix the problems after installing `WPS Office`
+
+1. Fixed the [problem](http://packages.deepin.com/deepin/pool/non-free/t/ttf-wps-fonts/) with missing fonts
+2. Fixed the [problem](https://bbs.wps.cn/topic/3137) with bold fonts display: using lower version of [`libfreetype`](https://packages.debian.org/zh-tw/bookworm/libfreetype6)
 
 ## STATUS
 
@@ -12,12 +15,12 @@ Copr build: [![Copr build status](https://copr.fedorainfracloud.org/coprs/clarlo
 
 ### Manual Installation
 
-Download [latest release](https://github.com/JamesBrosy/wps-office-fonts-extra/releases/latest), and extract to `~/.local/share/fonts`.
+Download [latest release](https://github.com/JamesBrosy/wps-office-fonts-extra/releases/latest)
 
 ### Fedora Installation
 
 ```sh
-sudo dnf copr enable clarlok/wps-office-fonts-extra
-sudo dnf -y install wps-office-fonts-extra
+sudo dnf copr enable clarlok/wps-office-fix
+sudo dnf -y install wps-office-fix
 ```
 

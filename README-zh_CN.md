@@ -1,6 +1,9 @@
 ## 关于
 
-此仓库包含 wps 缺失字体，用于解决 wps linux 版本因为字体缺失而报错。
+**此仓库旨在修复wps安装后出现的一些问题**
+
+1. 修复了[缺失字体问题](http://packages.deepin.com/deepin/pool/non-free/t/ttf-wps-fonts/)
+2. 修复了[粗体字显示问题](https://bbs.wps.cn/topic/3137)：使用低版本 [`libfreetype`](https://packages.debian.org/zh-tw/bookworm/libfreetype6)
 
 ## 状态
 
@@ -10,12 +13,12 @@ Copr 构建：[![Copr build status](https://copr.fedorainfracloud.org/coprs/clar
 
 ### 手动安装
 
-下载[最新版本](https://github.com/JamesBrosy/wps-office-fonts-extra/releases/latest)，并解压到 `~/.local/share/fonts`
+下载[最新版本](https://github.com/JamesBrosy/wps-office-fonts-extra/releases/latest)
 
 ### fedora 安装
 
 ```sh
-sudo dnf copr enable clarlok/wps-office-fonts-extra
-sudo dnf -y install wps-office-fonts-extra
+sudo dnf copr enable clarlok/wps-office-fix
+sudo dnf -y install wps-office-fix
 ```
 
