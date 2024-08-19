@@ -7,7 +7,7 @@
 
 ## 状态
 
-Copr 构建：[![Copr build status](https://copr.fedorainfracloud.org/coprs/clarlok/wps-office-fonts-extra/package/wps-office-fonts-extra/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/clarlok/wps-office-fonts-extra/package/wps-office-fonts-extra/)
+Copr 构建：[![Copr build status](https://copr.fedorainfracloud.org/coprs/clarlok/wps-office-fix/package/wps-office-fix/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/clarlok/wps-office-fix/package/wps-office-fix/)
 
 ## 安装方法
 

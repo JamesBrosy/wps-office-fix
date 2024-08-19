@@ -9,7 +9,7 @@ This repo is aimed fix the problems after installing `WPS Office`
 
 ## STATUS
 
-Copr build: [![Copr build status](https://copr.fedorainfracloud.org/coprs/clarlok/wps-office-fonts-extra/package/wps-office-fonts-extra/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/clarlok/wps-office-fonts-extra/package/wps-office-fonts-extra/)
+Copr build: [![Copr build status](https://copr.fedorainfracloud.org/coprs/clarlok/wps-office-fix/package/wps-office-fix/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/clarlok/wps-office-fix/package/wps-office-fix/)
 
 ## Installation
 
