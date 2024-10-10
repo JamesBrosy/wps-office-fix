@@ -16,4 +16,4 @@ mv "$DIR/libfreetype/$(uname -m)/libfreetype.so.6.*" "$LIB_DIR"
 
 cd "$LIB_DIR" && ln -s libfreetype.so.6.* libfreetype.so.6
 
-echo -e "\e[33mInstall Successfully!!!"
+echo -e "\e[33mInstall Successfully!!!\e[0m"
