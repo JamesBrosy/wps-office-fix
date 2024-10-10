@@ -15,7 +15,10 @@ Copr build: [![Copr build status](https://copr.fedorainfracloud.org/coprs/clarlo
 
 ### Manual Installation
 
-Download [latest release](https://github.com/JamesBrosy/wps-office-fonts-extra/releases/latest)
+```sh
+git clone https://github.com/JamesBrosy/wps-office-fix.git
+cd wps-office-fix && bash install.sh
+```
 
 ### Fedora Installation
 

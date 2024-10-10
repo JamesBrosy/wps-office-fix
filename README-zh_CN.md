@@ -13,7 +13,10 @@ Copr 构建：[![Copr build status](https://copr.fedorainfracloud.org/coprs/clar
 
 ### 手动安装
 
-下载[最新版本](https://github.com/JamesBrosy/wps-office-fonts-extra/releases/latest)
+```sh
+git clone https://github.com/JamesBrosy/wps-office-fix.git
+cd wps-office-fix && bash install.sh
+```
 
 ### fedora 安装
 
