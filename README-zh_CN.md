@@ -11,17 +11,24 @@ Copr 构建：[![Copr build status](https://copr.fedorainfracloud.org/coprs/clar
 
 ## 安装方法
 
+> [!NOTE]
+>
+> WPS Office 版本 11 需要安装缺失字体和低版本 `libfreetype`，版本 12 只需要安装缺失字体。
+
 ### 手动安装
 
 ```sh
 git clone https://github.com/JamesBrosy/wps-office-fix.git
-cd wps-office-fix && bash install.sh
+cd wps-office-fix
+bash install_fonts.sh
+bash install_libs.sh
 ```
 
 ### fedora 安装
 
 ```sh
 sudo dnf copr enable clarlok/wps-office-fix
-sudo dnf -y install wps-office-fix
+sudo dnf -y install wps-office-missing-fonts # 安装缺失字体
+sudo dnf -y install wps-office-libfreetype   # 安装低版本 libfreetype
 ```
 

@@ -13,17 +13,24 @@ Copr build: [![Copr build status](https://copr.fedorainfracloud.org/coprs/clarlo
 
 ## Installation
 
+> [!NOTE]
+>
+> For wps office version 11, You need install missing fonts and lower version of `libfreetype`. And you need only missing fonts for version 12.
+
 ### Manual Installation
 
 ```sh
 git clone https://github.com/JamesBrosy/wps-office-fix.git
-cd wps-office-fix && bash install.sh
+cd wps-office-fix
+bash install_fonts.sh
+bash install_libs.sh
 ```
 
 ### Fedora Installation
 
 ```sh
 sudo dnf copr enable clarlok/wps-office-fix
-sudo dnf -y install wps-office-fix
+sudo dnf -y install wps-office-missing-fonts  # install missing fonts
+sudo dnf -y install wps-office-libfreetype    # install lower version of libfreetype
 ```
 
