@@ -8,12 +8,11 @@ if [[ ! "$UID" == 0 ]]; then
 fi
 
 DIR=$(dirname "$(readlink -f "$0")")
-FONTS_DIR="/usr/share/fonts/wps-office"
 LIB_DIR="/opt/kingsoft/wps-office/office6"
 
-mv "$DIR"/fonts/*.ttf "$FONTS_DIR"
-mv "$DIR/libfreetype/$(uname -m)/libfreetype.so.6.*" "$LIB_DIR"
+mv -v "$DIR/libfreetype/$(uname -m)/libfreetype.so.6.*" "$LIB_DIR"
 
+echo "Making link libfreetype.so.6.18.3 -> libfreetype.so.6"
 cd "$LIB_DIR" && ln -s libfreetype.so.6.* libfreetype.so.6
 
-echo -e "\e[33mInstall Successfully!!!\e[0m"
+echo -e "\e[33mInstall Libfreetype Successfully!!!\e[0m"
