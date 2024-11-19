@@ -28,7 +28,7 @@ bash install_libs.sh
 
 ```sh
 sudo dnf copr enable clarlok/wps-office-fix
-sudo dnf -y install wps-office-missing-fonts # 安装缺失字体
-sudo dnf -y install wps-office-libfreetype   # 安装低版本 libfreetype
+sudo dnf -y install wps-office-fix           # 版本 11
+sudo dnf -y install wps-office-missing-fonts # 版本 12
 ```
 
