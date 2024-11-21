@@ -6,6 +6,7 @@ This repo is aimed fix the problems after installing `WPS Office`
 
 1. Fixed the [problem](http://packages.deepin.com/deepin/pool/non-free/t/ttf-wps-fonts/) with missing fonts
 2. Fixed the [problem](https://bbs.wps.cn/topic/3137) with bold fonts display: using lower version of [`libfreetype`](https://packages.debian.org/zh-tw/bookworm/libfreetype6)
+3. Please see [arch wiki](https://wiki.archlinuxcn.org/wiki/WPS_Office) for more details.
 
 ## STATUS
 
