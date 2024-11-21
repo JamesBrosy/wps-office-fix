@@ -4,6 +4,7 @@
 
 1. 修复了[缺失字体问题](http://packages.deepin.com/deepin/pool/non-free/t/ttf-wps-fonts/)
 2. 修复了[粗体字显示问题](https://bbs.wps.cn/topic/3137)：使用低版本 [`libfreetype`](https://packages.debian.org/zh-tw/bookworm/libfreetype6)
+3. 更多细节请参考[arch wiki](https://wiki.archlinuxcn.org/wiki/WPS_Office)
 
 ## 状态
 
