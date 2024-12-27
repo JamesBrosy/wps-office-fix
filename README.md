@@ -16,7 +16,7 @@ Copr build: [![Copr build status](https://copr.fedorainfracloud.org/coprs/clarlo
 
 > [!NOTE]
 >
-> For wps office version 11, You need install missing fonts and lower version of `libfreetype`. And you need only missing fonts for version 12.
+> For wps office version 11, you need to install missing fonts and lower version of `libfreetype`, but you need only missing fonts for version 12.
 
 ### Manual Installation
 
