@@ -32,6 +32,6 @@ bash install_libs.sh
 ```sh
 sudo dnf copr enable clarlok/wps-office-fix
 sudo dnf -y install wps-office-fix            # for version 11
-sudo dnf -y install wps-office-missing-fonts  # for version 12
+sudo dnf -y install wps-office-fix-missing-fonts  # for version 12
 ```
 
