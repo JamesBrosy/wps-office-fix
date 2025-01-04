@@ -17,10 +17,11 @@ fi
 
 echo "Installing fonts..."
 cd "${DIR}/fonts" || exit 1
-install -Dm644 ./*.tt* -t "$FONTS_DIR"
-for dir in *; do
-  if [ -d "${dir}" ]; then
-    install -Dm644 "${dir}"/* -t "/usr/share/fonts/${dir}"
+for font in *; do
+  if [ -d "${font}" ]; then
+    install -Dm644 "${font}"/* -t "$FONTS_DIR"
+  else
+    install -Dm644 "${font}"   -t "$FONTS_DIR"
   fi
 done
 
