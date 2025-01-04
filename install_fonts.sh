@@ -16,6 +16,12 @@ if [ ! -d "$FONTS_DIR" ]; then
 fi
 
 echo "Installing fonts..."
-install -Dm644 "$DIR"/fonts/*.ttf -t "$FONTS_DIR"
+cd "${DIR}/fonts" || exit 1
+install -Dm644 ./*.tt* -t "$FONTS_DIR"
+for dir in *; do
+  if [ -d "${dir}" ]; then
+    install -Dm644 "${dir}"/* -t "/usr/share/fonts/${dir}"
+  fi
+done
 
 echo -e "\e[33mInstall Fonts Successfully!!!\e[0m"
